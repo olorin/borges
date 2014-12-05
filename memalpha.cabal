@@ -16,3 +16,10 @@ library
   build-depends:       base >=4.7 && <4.8
   hs-source-dirs:      lib
   default-language:    Haskell2010
+
+executable pdf2txt
+  hs-source-dirs:      src
+  main-is:             Pdf2txt.hs
+  default-language:    Haskell2010
+  build-depends:       base >=4.7 && <4.8,
+                       pdf-toolbox-document
