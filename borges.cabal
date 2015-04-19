@@ -1,7 +1,7 @@
-name:                memalpha
+name:                borges
 version:             0.1.0.0
 synopsis:            Citation manager - indexes and searches your paper collection
-homepage:            https://github.com/fractalcat/memalpha
+homepage:            https://github.com/fractalcat/borges
 license:             MIT
 license-file:        LICENSE
 author:              Sharif Olorin
@@ -10,12 +10,6 @@ copyright:           2014 Sharif Olorin
 build-type:          Simple
 extra-source-files:  README.md
 cabal-version:       >=1.10
-
---library
---  exposed-modules:     Memalpha.Import
---  build-depends:       base >=4.7 && <4.8
---  hs-source-dirs:      lib
---  default-language:    Haskell2010
 
 executable pdf2txt
   hs-source-dirs:      src

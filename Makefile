@@ -10,7 +10,7 @@ test: dist/setup-config tags
 	@/bin/echo -e "CABAL\ttest"
 	cabal test
 
-dist/setup-config: memalpha.cabal 
+dist/setup-config: borges.cabal 
 	cabal configure \
 		--enable-tests \
 		--disable-benchmarks \

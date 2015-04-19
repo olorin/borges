@@ -1,4 +1,3 @@
-memalpha
-========
+# borges
 
-Archives and indexes your research papers.
+Fast, scalable reference manager.
